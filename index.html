@@ -19,7 +19,7 @@
     </header>
     <section id="votacao" style="display: none;">
       <div id="botaoConexao">
-        <button style="text-align: center;" id="btnConectaMetamask" onclick="conectaAoMetamask()">Para participar conecte-se ao 🦊 Metamask</button>
+        <button id="btnConectaMetamask" onclick="conectaAoMetamask()">Para participar conecte-se ao 🦊 Metamask</button>
       </div>
       <div id="areaOpcoesVotacao" style="display: none;">
         <div>
@@ -34,6 +34,9 @@
     </section>
     <section id="informacoes" style="display: none;">
       <div>
+        <div>
+          <button onclick="buscarDadosDoContratoInteligente()"> 🔄 Busca informações atualizadas sobre a votação</button>
+        </div>
         <h4> Prévia das votações </h4>
       </div>
       <br>
@@ -46,9 +49,7 @@
         </div>
       </div>
       <br>
-      <div>
-        <button style="text-align: center;" onclick="buscarDadosDoContratoInteligente()"> 🔄 Busca informações atualizadas sobre a votação</button>
-      </div>
+      
     </section>
     <section id="statusTransacoes" style="display: none;">
       <div>
