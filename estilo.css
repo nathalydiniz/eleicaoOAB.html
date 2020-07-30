@@ -15,8 +15,11 @@ h1 {
     margin-bottom: 50px;
   }
 
-div {
-  margin-bottom: 25px;
+div .container {
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 50px;
 }
 
 h4 {
